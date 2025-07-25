@@ -70,7 +70,9 @@
 # Don't deploy models trained only on historical data without validating on live data
 
 # Screenshots
-# ![Credit card Fraud Detection][<img width="1012" height="525" alt="fraud detection" src="https://github.com/user-attachments/assets/5f4e33b1-e1c6-41c3-a19f-4d25684e0c3e" />
+# ![Credit card Fraud Detection]<img width="1012" height="525" alt="fraud detection" src="https://github.com/user-attachments/assets/5f4e33b1-e1c6-41c3-a19f-4d25684e0c3e" />
+# ![Fraud detection]<img width="1012" height="525" alt="fraud detection 2" src="https://github.com/user-attachments/assets/9dcc9f11-b649-4ae7-b191-e6b9ce9b187c" />
+
 
 
 # 🏁 9. Conclusion
