@@ -20,18 +20,38 @@
 # Used to create dashboards with fraud trends, KPIs, and filters
 # Integrated using CSV exports from the Python model
 
+# credit-card-fraud-detection/
+│
+# ├── data/
+│   #├── raw_data.csv                  # Original dataset
+│   ├── cleaned_data.csv              # Cleaned and preprocessed data
+│   └── prediction_results.csv        # Model predictions for Power BI
+│
+# ├── notebooks/
+│   ├── eda_visualization.ipynb       # EDA using Plotly/Matplotlib
+│   └── fraud_detection_model.ipynb   # Model training and evaluation
+│
+# ├── powerbi_dashboard/
+│   └── fraud_dashboard.pbix          # Power BI report file
+│
+# ├── images/
+│   └── fraud_dashboard.png           # Screenshot of dashboard
+│
+# ├── models/
+│   └── xgboost_model.pkl             # Trained model (pickle format)
+│
+├── README.md                         # Project overview and instructions
+├── requirements.txt                  # Python libraries required
+
+
+
 # 🤖 4. About the Model
 # We experimented with multiple models:
 # Logistic Regression – for baseline performance
 # Random Forest – for robust, ensemble-based prediction
 # XGBoost – for high accuracy with optimized boosting
 
-# Key challenges:
-# Imbalanced Dataset: Fraud transactions are <1%
-# High Precision Needed: We cannot afford many false positives
-# We used SMOTE (Synthetic Minority Oversampling Technique) to oversample the minority class (fraud), and stratified splitting to preserve class proportions in train/test data.
-
-# 🧪 5. Training the Model (Workflow)
+# 🧪 6. Training the Model (Workflow)
 # Data Preprocessing:
 # Remove duplicates
 # Scale Amount and Time using StandardScaler
@@ -47,7 +67,6 @@
 # Save results with transaction IDs, amounts, and fraud scores
 
 # Power BI Integration:
-
 # Export cleaned + prediction data as .csv
 # Load into Power BI for dashboard creation
 
@@ -76,4 +95,17 @@
 
 
 # 🏁 9. Conclusion
-# This project demonstrates how Machine Learning can revolutionize the fight against credit card fraud when combined with Power BI dashboards. With intelligent prediction models and dynamic visualization tools, businesses can quickly detect suspicious activities, minimize financial loss, and stay ahead of evolving fraud tactics. Future extensions could include deploying the model in real-time systems, incorporating feedback loops, and improving explainability using tools like SHAP.
+# This project demonstrates how Machine Learning can revolutionize the fight against credit card fraud when combined with Power BI dashboards. With intelligent prediction models and dynamic visualization tools, businesses can quickly detect suspicious activities, minimize financial loss, and stay ahead of evolving fraud tactics. Future extensions could include deploying the model Add new featues 
+
+# Welocme to Contributors 
+# How to Contribute: Fork the repository
+# Create your feature branch: git checkout -b my-feature
+# Commit your changes: git commit -am 'Add new feature'
+# Push to the branch: git push origin my-feature
+# Create a new Pull Request
+
+#  Author : D s kamali [https://github.com/kamali1331]
+# Contributors : Jahnvi [https://github.com/jahnavi1708]
+#               Ankit kumar [https://github.com/kumar-ankit-100]
+#               Tanuja [https://github.com/Tanuja-1708]
+#               Lakshaya[https://github.com/Lakshya191]
