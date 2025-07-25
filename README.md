@@ -20,24 +20,25 @@
 # Used to create dashboards with fraud trends, KPIs, and filters
 # Integrated using CSV exports from the Python model
 
-# credit-card-fraud-detection/
+# credit-card-fraud-detection
+# Project structure 
 │
-# ├── data/
+├── data/
 │   #├── raw_data.csv                  # Original dataset
 │   ├── cleaned_data.csv              # Cleaned and preprocessed data
 │   └── prediction_results.csv        # Model predictions for Power BI
 │
-# ├── notebooks/
+├── notebooks/
 │   ├── eda_visualization.ipynb       # EDA using Plotly/Matplotlib
 │   └── fraud_detection_model.ipynb   # Model training and evaluation
 │
-# ├── powerbi_dashboard/
+├── powerbi_dashboard/
 │   └── fraud_dashboard.pbix          # Power BI report file
 │
-# ├── images/
+├── images/
 │   └── fraud_dashboard.png           # Screenshot of dashboard
 │
-# ├── models/
+├── models/
 │   └── xgboost_model.pkl             # Trained model (pickle format)
 │
 ├── README.md                         # Project overview and instructions
