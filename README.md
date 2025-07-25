@@ -70,7 +70,8 @@
 # Don't deploy models trained only on historical data without validating on live data
 
 # Screenshots
-# ![Credit card Fraud Detection]["C:\Users\kamal\Downloads\newplot.png"]
+# ![Credit card Fraud Detection][<img width="1012" height="525" alt="fraud detection" src="https://github.com/user-attachments/assets/5f4e33b1-e1c6-41c3-a19f-4d25684e0c3e" />
+
 
 # 🏁 9. Conclusion
 # This project demonstrates how Machine Learning can revolutionize the fight against credit card fraud when combined with Power BI dashboards. With intelligent prediction models and dynamic visualization tools, businesses can quickly detect suspicious activities, minimize financial loss, and stay ahead of evolving fraud tactics. Future extensions could include deploying the model in real-time systems, incorporating feedback loops, and improving explainability using tools like SHAP.
